@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <title>
+      SoulWinningReport_draft
+    </title>
+    <form>
+      <fieldset>
+        <p>
+          <legend>Personal Evangelism</legend>
+        </p>
+
+        <label class="team" for="team">Team:</label>
+        <select name="dropDownMenu" id="teams">
+          <option value="null"></option>
+          // Team names: Chosen; etc. //
+          <option value="chosen">"The Chosen"</option>
+          <option value="persuaders">The Persuaders</option>
+          <option value="teamName3">Team Name 3</option>
+          <option value="teamName4">Team Name 4</option>
+          <option value="teamName4">Team Name 5</option>
+        </select>
+
+        <label class="teamLeader" for="teamLeader">Team Leader:</label>
+        <select name="dropDownMenu" id="teamLeader">
+          <option value="null"></option>
+          <option value="chosen">Rev. C. Perez</option>
+          <option value="persuaders">Rev. J. Infausto</option>
+          <option value="teamName3">Rev. J. P. Malone</option>
+          <option value="teamName4">Rev. T. McBrayer</option>
+          <option value="teamName4\5">Sis. I. Responded2Dneed</option>
+        </select>
+
+        <p></p>
+        <label class="soulWinner" for="soulWinner">Soul Winner:</label>
+        <select name="dropDownMenu" id="soulWinner">
+          <option value="null"></option>
+          <option value="pastor">Pastor</option>
+          <option value="ap">Associate Pastor</option>
+          <option value="lp">Lay Pastor</option>
+          <option value="rev">Reverend</option>
+          <option value="bro">Brother</option>
+          <option value="sis">Sister</option>
+        </select>
+
+        <label class="first-name" for="firstName">First Name:</label>
+        <input class="first-name" name="firstNameInput" type="text" size="28"></input>
+
+        <label class="last-name" for="lastName">Last Name:</label>
+        <input class="last-name" name="lastNameInput" type="text" size="28"></input>
+
+        <p></p>
+        <label class="address" for="address">Street Address:</label>
+        <input class="address" name="addressInput" type="text" size="35"></input>
+
+        <label class="phone" for="phone">Phone Number:</label>
+        <input class="phone" name="phoneInput" type="text" size="10"></input>
+
+        <button id="beginReport">Begin Report</button>
+
+        <button id="viewLastReport">View Last Report</button>
+      </fieldset>
+    </form>
+
+    <script src="app.js"></script>
+  </body>
+</html>

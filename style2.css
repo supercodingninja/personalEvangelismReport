@@ -1,0 +1,15 @@
+@import url(https://fonts.googleapis.com/css?family=Advent+Pro:100);
+
+html {
+  background:  url(https://www.myntcc.org/image/new-testament-christian-churches-logo.png) no-repeat center center fixed;
+  background-size: auto;
+  position: absolute;
+}
+
+h1 {
+  font-family: 'Advent Pro', sans-serif;
+  font-size: 3em;
+  margin: .2em .5em;
+  color: rgba(0,0,0, 0.3);
+}
+
